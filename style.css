@@ -1,3 +1,12 @@
+/* created variables to store colours to make it easier to mass change them */
+:root {
+  --lyellow: #fce49c;
+  --dyellow: #f8c221;
+  --grey: #555;
+  --black: #1c1c0c;
+  --white: #f1f1f1;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 /*background-color:#fedf59;*/
@@ -7,7 +16,7 @@ body {
     margin:20px;
 }
 main {
-  color: #1c1c0c;
+  color: var(--black);
 }
 .header, #tagline {
     float:lef;
@@ -17,18 +26,23 @@ main {
 .nav > ul {
     overflow:hidden;
     list-style-type: none;
-    background-color:#fce49c;
+    background-color:var(--lyellow);
 }
 .nav > ul > li {
     float: right;
     display:block;
-    color: #1c1c0c;
+    color: var(--black);
     text-align: center;
     padding: 10px;
 }
 .nav > ul > li > a {
     text-decoration: none;
-    color: #1c1c0c;
+    color: var(--black);
+}
+
+/* added hover feature and active but colour can change and i think there's a padding issue?*/
+nav .active, nav > ul > li > a:hover {
+  background-color: var(--dyellow);
 }
 
 img {
@@ -48,27 +62,27 @@ img {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #fce49c;
-    color: #1c1c0c;
+    background-color: var(--lyellow);
+    color: var(--black);
     text-align: center;
 }
 .links > ul > li {
     float: right;
     display:block;
-    color: #1c1c0c;
+    color: var(--black);
     text-align: center;
     padding: 10px;
 }
 .links > ul > li > a {
     text-decoration: none;
-    color: #1c1c0c;
+    color: var(--black);
 }
 
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color: #555;
-  color: #1c1c0c;
+  background-color: var(--grey);
+  color: var(--black);
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -82,7 +96,7 @@ img {
   position:fixed;
 top: 0;
   right: 15px;
-  border: 3px solid #1c1c0c;
+  border: 3px solid var(--black);
   z-index: 9;
 }
 
@@ -95,7 +109,7 @@ top: 0;
   transform: translate(-50%, -50%);
   width: 50%;
   padding: 10px;
-  background-color: #1c1c0c;
+  background-color: var(--black);
 }
 
 /* Full-width input fields */
@@ -104,7 +118,7 @@ top: 0;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
-  background: #f1f1f1;
+  background: var(--white);
 }
 
 /* When the inputs get focus, do something */
@@ -116,7 +130,7 @@ top: 0;
 /* Set a style for the submit/login button */
 .form-container .btn {
   background-color: #04AA6D;
-  color: #1c1c0c;
+  color: var(--black);
   padding: 16px 20px;
   border: none;
   cursor: pointer;
