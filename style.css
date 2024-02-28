@@ -6,7 +6,9 @@ body {
 .header {
     margin:20px;
 }
-
+main {
+  color: #1c1c0c;
+}
 .header, #tagline {
     float:lef;
     padding-right: 20px;
@@ -15,18 +17,18 @@ body {
 .nav > ul {
     overflow:hidden;
     list-style-type: none;
-    background-color:rgb(241, 199, 10);
+    background-color:#fce49c;
 }
 .nav > ul > li {
     float: right;
     display:block;
-    color: white;
+    color: #1c1c0c;
     text-align: center;
     padding: 10px;
 }
 .nav > ul > li > a {
     text-decoration: none;
-    color: white;
+    color: #1c1c0c;
 }
 
 img {
@@ -46,27 +48,27 @@ img {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(241, 199, 10);
-    color: white;
+    background-color: #fce49c;
+    color: #1c1c0c;
     text-align: center;
 }
 .links > ul > li {
     float: right;
     display:block;
-    color: white;
+    color: #1c1c0c;
     text-align: center;
     padding: 10px;
 }
 .links > ul > li > a {
     text-decoration: none;
-    color: white;
+    color: #1c1c0c;
 }
 
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;
-  color: white;
+  color: #1c1c0c;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -80,7 +82,7 @@ img {
   position:fixed;
 top: 0;
   right: 15px;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #1c1c0c;
   z-index: 9;
 }
 
@@ -93,7 +95,7 @@ top: 0;
   transform: translate(-50%, -50%);
   width: 50%;
   padding: 10px;
-  background-color: white;
+  background-color: #1c1c0c;
 }
 
 /* Full-width input fields */
@@ -114,7 +116,7 @@ top: 0;
 /* Set a style for the submit/login button */
 .form-container .btn {
   background-color: #04AA6D;
-  color: white;
+  color: #1c1c0c;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
