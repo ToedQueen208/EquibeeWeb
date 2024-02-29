@@ -10,6 +10,7 @@ body {
 }
 nav {
   font-family: equibeeFont;
+  border-radius: 5%;
 }
 .header {
     margin:20px;
@@ -17,7 +18,7 @@ nav {
 main {
   color: #1c1c0c;
 }
-.header, #tagline {
+.header {
     float:lef;
     padding-right: 20px;
 
@@ -41,6 +42,11 @@ main {
 
 img {
     max-width: 100%;
+}
+
+.fullLogo {
+  max-width: 10%;
+  border-radius: 5%;
 }
 
 .grid-container {
@@ -71,7 +77,12 @@ img {
     text-decoration: none;
     color: #1c1c0c;
 }
-
+#copyright {
+  float: left;  
+  bottom: 0;
+  padding-left: 1em;
+  font-size: 0.80em;
+}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
