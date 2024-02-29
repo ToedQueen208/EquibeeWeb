@@ -4,13 +4,14 @@
   src: url(Gamer.ttf);
 }
 body {
-    font-family: "Merriweather" 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Merriweather", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 /*background-color:#fedf59;*/
 }
 nav {
   font-family: equibeeFont;
   border-radius: 5%;
+  font-size: 1.7em;
 }
 .header {
     margin:20px;
@@ -81,7 +82,7 @@ img {
   float: left;  
   bottom: 0;
   padding-left: 1em;
-  font-size: 0.80em;
+  font-size: 1.15em;
 }
 
 /* Button used to open the contact form - fixed at the bottom of the page */
