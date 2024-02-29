@@ -1,38 +1,53 @@
+
+@font-face {
+  font-family: equibeeFont;
+  src: url(Gamer.ttf);
+}
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Merriweather", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 /*background-color:#fedf59;*/
 }
-
+nav {
+  font-family: equibeeFont;
+  border-radius: 5%;
+  font-size: 1.7em;
+}
 .header {
     margin:20px;
 }
 main {
   color: #1c1c0c;
 }
-.header, #tagline {
+.header {
     float:lef;
     padding-right: 20px;
 
 }
-.nav > ul {
+nav > ul {
     overflow:hidden;
     list-style-type: none;
     background-color:#fce49c;
 }
-.nav > ul > li {
+nav > ul > li {
     float: right;
     display:block;
     color: #1c1c0c;
     text-align: center;
     padding: 10px;
 }
-.nav > ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: #1c1c0c;
 }
 
 img {
     max-width: 100%;
+}
+
+.fullLogo {
+  max-width: 10%;
+  border-radius: 5%;
 }
 
 .grid-container {
@@ -63,7 +78,12 @@ img {
     text-decoration: none;
     color: #1c1c0c;
 }
-
+#copyright {
+  float: left;  
+  bottom: 0;
+  padding-left: 1em;
+  font-size: 1.15em;
+}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
@@ -134,3 +154,19 @@ top: 0;
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }    
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+  }
+  
+}
+
+.maps{
+  padding-bottom: 1em;
+}
+
+main{
+  padding: 5em;
+  padding-bottom: 10em;
+}
