@@ -35,10 +35,10 @@
         <form class="form" >
           <h1>Login</h1>
           <fieldset>
-          <label for="name"><b>PLease Enter you name</b></label>
+          <label for="name"><b>Please enter your name</b></label>
           <input type="text" placeholder="Enter name" name="name" id="name" required >
         </fieldset>
-       < <fieldset>
+        <fieldset>
             <legend>please select issue</legend>
             <input type="radio" name = "Q1" id="Health" value="Health">
             <label for="Health" > Physical Health</label>
@@ -65,29 +65,31 @@
     -->
     <fieldset>
         <legend>Current Goal</legend>
-        <input type="text" name = "Q3" id="Goal" value="Goal">
-        <label for="Goal"><b>What is your current Goal</b></label>
+        <label for="Goal"><b>What is your current goal</b></label>
+        <input type="text" name = "Q3" id="Goal" value="Enter Goal">
         
       </fieldset>        
-
+      <br>
    
         <fieldset>
           <label for="email"><b>Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" required>
-        </fieldset>        
+        </fieldset> 
+        <br>      
           <button type="button" class="btn cancel" onclick="closeForm()">Submit</button>
         </form>
       
     </main>
     <footer>
-        <p>Copyright EquiBee 2023</p>
-        <nav class="links">
-            <ul>
-                <li> Here are links to social media</li>
-                <li><a href="https://www.instagram.com/equibeemcr/">Instagram</a></li>     
-            </ul>
-        </nav>
-    </footer>
+      <nav class="links">
+          <p id="copyright">COPYRIGHT: EquiBee 2023</p>
+          <ul>
+              <li> Here are links to social media</li>
+              <li><a href="https://www.instagram.com/equibeemcr/">INSTAGRAM</a></li>     
+
+          </ul>
+      </nav>
+  </footer>
 </div>
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>
