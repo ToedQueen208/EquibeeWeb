@@ -1,8 +1,19 @@
+
+@font-face {
+  font-family: equibeeFont;
+  src: url(Gamer.ttf);
+}
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+<<<<<<< Updated upstream
+  font-family: "Merriweather";
+=======
+    font-family: "Gamer", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+>>>>>>> Stashed changes
 /*background-color:#fedf59;*/
 }
-
+nav {
+  font-family: equibeeFont;
+}
 .header {
     margin:20px;
 }
